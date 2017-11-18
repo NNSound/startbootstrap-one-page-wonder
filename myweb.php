@@ -20,6 +20,7 @@
                 <h1>NNcode</h1>
             </div>
         </header>
+        
         <div class="sidebar_left">
             <nav>
                 <ul class="card">
@@ -37,9 +38,9 @@
         </div>
 
         <div class="content">
+        
             <div class="table">
-                <table>
-                    
+                <table>                
                     <tr>
                         <th style="border: 0;">#</th>
                         <th>Song</th>
@@ -73,8 +74,25 @@
 
                 </table>
             </div>
-            <div class="maketable">
+            <div>
+                <?php
+                echo "Hello php <br>";
+                $db_host = "myfirstdb.cmuovhawvgvz.us-west-2.rds.amazonaws.com:3306";
+                $db_user = "nn";
+                $db_pass = "wl01994570";
+                $db_select = "test";
+                $dbconnect = "mysql:host=".$db_host.";dbname=".$db_select;                
+                $dbgo = new PDO($dbconnect, $db_user, $db_pass);
+                echo "Connected Successfully <br>";
 
+                $rs = $dbgo -> query("SELECT * FROM english_song;");
+                echo "資料總筆數：".$rs -> rowCount()."<br>";
+                $row= $rs->fetchAll();
+                foreach ($row as $datainfo)
+                {
+                    echo $datainfo['song']."                  ".$datainfo['artist']."<br>";
+                }
+            ?>
             </div>
 
 
