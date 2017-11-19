@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+ } 
+body
+ {
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: black;
+    overflow: auto;
+ }
+ 
+.container
+ {
+     width: 100%;
+     margin-right: auto;
+     margin-left: auto;
+ }
+
+ header
+ {
+    background-image: url("../image/head.png");     
+    background-size:cover;
+    background-repeat: no-repeat;/*圖片不重複出現*/
+ }
+ header h1
+ {
+    font-size: 2rem;
+    color: white;
+    padding-top: 8%; 
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6);
+ }
+
+ .sidebar_left{
+    float: left;
+    margin: 100px  30px;
+ }
+
+ .content{
+    float:content;
+    margin: 50px 400px;
+    margin-right: 579px
+ }
+a
+ {
+    display: block; 
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: rgba(224, 224, 224, 0.5);
+    color: #000000;
+ }
+ .table{
+     margin: auto;
+    /* padding:2px 2px;*/
+    background-color: red;
+ }
+ th 
+ { 
+    font: bold 16px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+    color: #4f6b72; 
+    border-right: 100px solid #C1DAD7; 
+    border-bottom: 1px solid #C1DAD7; 
+    border-top: 1px solid #C1DAD7; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    text-align: left; 
+    padding: 6px 6px 6px 12px; 
+    background: #CAE8EA;
+} 
+td {
+    padding: 6px 6px 6px 12px;
+}
+tr a
+{
+    padding: 6px 6px 6px 12px;
+}
