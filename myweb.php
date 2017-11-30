@@ -3,13 +3,13 @@
 <html>
 
 <head>
-    <!– 網頁使用的編碼 -->
+    <!??網�?使用?�編�?-->
     <meta charset="utf-8">
-    <!– 控制網頁顯示依據裝置大小及倍率 -->
+    <!???�制網�?顯示依�?裝置大�??�倍�? -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!–  設置 IE 瀏覽器的解析方式  -->
+    <!?? 設置 IE ?�覽?��?�???��?  -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>版面配置</title>
+    <title>?�面?�置</title>
     <link href="css/music.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -61,8 +61,8 @@
             <div class="table">
                 <?php
                 $db_host = "myfirstdb.cmuovhawvgvz.us-west-2.rds.amazonaws.com:3306";
-                $db_user = "nn";
-                $db_pass = "wl01994570";
+                $db_user = "php";
+                $db_pass = "88888888";
                 $db_select = "test";
                 $dbconnect = "mysql:host=".$db_host.";dbname=".$db_select;                
                 $dbgo = new PDO($dbconnect, $db_user, $db_pass);
@@ -84,7 +84,7 @@
                     echo "</tr>";
                 }
                 echo "</table>";
-                echo "資料總筆數：".$rs -> rowCount()."<br>";
+                echo "資�?總�??��?".$rs -> rowCount()."<br>";
 
             ?>
             </div>
