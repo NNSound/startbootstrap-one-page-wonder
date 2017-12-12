@@ -1,15 +1,12 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 
 <html>
 
 <head>
-    <!??缍查?浣跨敤?勭法纰?-->
     <meta charset="utf-8">
-    <!???у埗缍查?椤ず渚濇?瑁濈疆澶у??婂�嶇? -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!?? 瑷疆 IE ?忚?ㄧ?瑙???瑰?  -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>?堥潰?嶇疆</title>
+    <title>鐗堥潰閰嶇疆</title>
     <link href="css/music.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -84,7 +81,7 @@
                     echo "</tr>";
                 }
                 echo "</table>";
-                echo "璩囨?绺界??革?".$rs -> rowCount()."<br>";
+                echo "璩囨枡绺芥暩:".$rs -> rowCount()."<br>";
 
             ?>
             </div>
